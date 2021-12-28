@@ -1,4 +1,4 @@
-import { siteName } from "../constants/siteVariables";
+import { siteName } from "../constants/constants";
 
 export const saveAuthDataLocalStorage = (data) => {
   localStorage.setItem(siteName, JSON.stringify(data));
